@@ -6,7 +6,10 @@ const Profile = () => {
   const { level } = useContext(ChallengesContext);
   return (
     <div className={styles.profileContainer}>
-      <img src="" alt="" />
+      <img
+        src="https://avatars.githubusercontent.com/u/64219605?s=460&u=a322c996ca45ccd3a0bbd393d1fb398db7c49332&v=4"
+        alt=""
+      />
       <div>
         <strong>Pablo Rosa</strong>
         <p>
